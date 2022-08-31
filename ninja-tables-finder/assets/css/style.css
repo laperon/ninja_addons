@@ -1,0 +1,53 @@
+.ninja-finder-module {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99999 !important; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.ninja-finder-module .modal-content form input[type="submit"] {
+    padding: 2px;
+    width: 60px;
+}
+
+.ninja-finder-module .modal-content {
+    text-align: center;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.ninja-finder-module .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.ninja-finder-module .close:hover,
+.ninja-finder-module .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ninja-finder-module .results .copy {
+    color: blue;
+    cursor: pointer;
+}
+
+#js-finder-module-button{
+    background: #909399;
+    color: white;
+    border-color: #a6a9ad;
+}
